@@ -1,0 +1,10 @@
+# nixpacks.toml - Railway Build Configuration
+
+[phases.setup]
+nixPkgs = ["nodejs-18_x"]
+
+[phases.install]
+cmds = ["npm ci --production"]
+
+[start]
+cmd = "node main-bot.js"
