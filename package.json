@@ -1,11 +1,20 @@
 {
   "name": "taskx-bot",
   "version": "1.0.0",
-  "description": "TaskX Telegram Bot",
+  "description": "TaskX Telegram Bot - Unified marketplace bot with escrow payments",
   "main": "main-bot.js",
   "scripts": {
     "start": "node main-bot.js"
   },
+  "keywords": [
+    "telegram",
+    "bot",
+    "marketplace",
+    "escrow",
+    "taskx"
+  ],
+  "author": "TaskX Team",
+  "license": "MIT",
   "engines": {
     "node": ">=18.0.0"
   },
